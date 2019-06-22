@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(255, 255, 255);
+    padding-top: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.header {
+    background-color: rgb(125, 50, 70);
+    text-align: center;
+    margin: 0 auto;
+}
+
+#headerImg {
+    width: 100%;
+    height: 200px;
+    flex-direction: column;
+    align-content: center;
+    display: flex;
+    overflow: hidden;
+}
+
+#headerImg img {
+    object-fit: cover;
+}
+
+.header h1 {
+    color: white;
+    margin: 0 auto;
+    width: 100%;
+    padding: 5px;
+}
+
+.navbar {
+    position: -webkit-sticky; /* for Safari */
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: rgb(125, 50, 70);
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.navbar a {
+    display: inline-block;
+    color: white;
+    padding: 5px 20px;
+    text-decoration: none;
+    font-size: 24px;
+    width: auto;
+    margin-right: -4px;
+}
+
+.navbar a:hover {
+    background-color: rgb(206, 119, 138);
+}
+
+
+.navbar a.active {
+    background-color: rgb(214, 177, 97);
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(125, 50, 70);
+    color: white;
+    text-align: center;
+}
+
+#githubLink {
+    color: white;
+}
