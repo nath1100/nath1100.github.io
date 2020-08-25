@@ -24,6 +24,11 @@ body {
     object-fit: cover;
 }
 
+.content-body {
+    margin: 20px;
+    min-height: 80vh;
+}
+
 .header h1 {
     color: white;
     margin: 0 auto;
@@ -64,9 +69,10 @@ body {
 }
 
 .footer {
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
+    padding: 8px;
     width: 100%;
     background-color: rgb(125, 50, 70);
     color: white;
